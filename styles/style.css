@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* <!-- New Year Section Starts Here --> */
+.happy-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.happy-celebration {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.happy-image-container {
+    width: 82%;
+    margin: 0px auto;
+    background-image: url('../resources/banner.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Offer Section Starts Here */
+.off-inner {
+    text-align: center;
+}
+
+.inner {
+    width: 82%;
+    margin: 0px auto;
+}
+
+.off-bold {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.red-holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.new-sec {
+    padding-top: 60px;
+}
+
+.black-head {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.colorful-new-year{
+    padding-bottom: 120px;
+}
+
+/* Party Section Starts Here */
+.party-image-container {
+    background-image: url('../resources/dancing.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 82%;
+    margin: 0px auto;
+
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 140x 0px; */
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.854), #d1363144);
+
+    border-radius: 10px;
+}
+
+
+.party-col-txt {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 60%;
+}
+
+.party-col-img {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+.welcome-text {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.party-des {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.party-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+
+
+.sec-event {
+    padding: 60px 0px;
+}
+
+/* Event Section Starts Here */
+.event-container {}
+
+.col-1 {
+    width: 35%;
+}
+
+.col-2 {
+    width: 35%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+
+.event-col {
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    padding: 40px 0px;
+
+}
+
+.black {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    padding: 16px 32px;
+}
+
+.sec-coming {
+    padding: 60px 0px;
+}
+
+/* Coming Soon Section Starts Here */
+.coming-soon-inner {
+    display: flex;
+    width: 82%;
+    margin: 0px auto;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.red-new {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.head-coming {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.dolor-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.ellipse-image {
+    padding: 20px;
+    border: 12px solid #F00;
+    border-radius: 50%;
+}
+
+/* Sale Section Starts Here */
+.sale-inner {
+    width: 82%;
+    margin: 0px auto;
+}
+
+.sale-text {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.bg-image {
+    background-image: url('../resources/rectangle-2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 600px;
+    display: flex;
+    gap: 20px;
+    z-index: 5;
+}
+
+.left-holi {
+    height: 100%;
+    width: 72%;
+}
+
+.img-sur {
+    height: 90%;
+}
+
+.lady {
+    background-image: url('../resources/red-bags.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 28%;
+    z-index: 2;
+}
+
+.dis {
+    margin-left: -160px;
+}
+
+/* <!-- Portfolio Section Starts Here --> */
+.portfolio {
+    padding: 60px 0px;
+}
+
+.best-gifts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.awesome-portfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 35px;
+}
+
+.img-div {
+    width: 30%;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.im {
+    transition: all .4s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+
+.img-div:hover .im {
+    scale: 1.1;
+}
+
+.sub-sec {
+    padding: 60px 0px;
+}
+
+.subscribe-inner {
+    background-color: #FFF2F2;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-div {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 45%;
+}
+
+input {
+    border: none;
+    padding-left: 15px;
+    width: 70%;
+}
+
+.sub-btn {
+    border-radius: 0;
+}
+
+.functional {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.black-holiday {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.red-holiday {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+
+
+/* Subscribe Section Starts Here */
+.subscribe-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+/* Footer Section Starts Here */
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address-holder {
+    display: flex;
+    gap: 40px;
+}
+
+.address-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: end;
+    align-items: end;
+
+    width: 50%;
+}
+
+.phone {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.icon-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text-btn-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.un-btn {
+    background-color: transparent;
+}
+
+
+footer {
+    background-color: black;
+    padding: 60px 0;
+}
+
+.footer-p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
